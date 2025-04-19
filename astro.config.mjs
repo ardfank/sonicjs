@@ -17,7 +17,9 @@ export default defineConfig({
   security: {
     checkOrigin: false,
   },
-  vite: {},
+  vite: {
+    cors: true
+  },
 });
 
 
