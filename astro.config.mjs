@@ -18,12 +18,7 @@ export default defineConfig({
     checkOrigin: false,
   },
   vite: {
-    cors: {
-      origin: '*',// could be stricter
-      methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-     // preflightContinue: true, rely on cors middleware
-     optionsSuccessStatus: 204,
-  }
+    cors: true
   },
 });
 
